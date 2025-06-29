@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-function MovieCard({ movie }) {
-  function onFavoriteClick() {
-      alert("clicked");
-  }
 
-  return (
-     <>
-     <MovieCard movie={{title:"War 2" , release_date:  "2024"} } />
-     <MovieCard movie={{title:"Bhubali 2" , release_date:  "2018"} } />
-
-     </>
-  );
-}
-export default MovieCard;
-=======
 import "./css/App.css";
 import Favorites from "./pages/Favorites";
 import Home from "./pages/Home";
@@ -36,4 +21,4 @@ function App() {
 }
 
 export default App;
->>>>>>> de999fd (Final commit Project completely)
+
